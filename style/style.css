@@ -23,10 +23,6 @@ p{
     width: 100%;
 }
 
-.header-btn{
-    display: none;
-}
-
 .fiber-link{
     text-decoration: none;
     color: black;
@@ -53,6 +49,21 @@ p{
     text-align: center;
     padding: 0.7em 0;
 }
+
+a.sing-link.singup {
+    color: white;
+    
+}
+
+.singup-link{
+    font-size: 1.2em;
+
+}
+
+.singup{
+    background-color: #4d13d1;
+}
+
 
 #menu{
     display: none;
@@ -240,3 +251,118 @@ footer nav ul{
     text-align: center;
     width: 50%;
 }
+
+
+@media screen and (min-width:768px){
+    header{
+        padding: 1em 2em;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .contain{
+        padding: 0 2em;
+    }
+
+    #menu{
+        display: block;
+    }
+
+    .menu-list{
+        display: flex;
+    }
+
+    .hamb-menu{
+        display: none;
+    }
+
+    .menu-list li a{
+        padding: 1em;
+        box-sizing: border-box;
+    }
+
+    .sec1{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-top: 1em;
+    }
+
+    .rate{
+        display: flex;
+    }
+
+    .rate p{
+        margin: 0;
+        font-size: 0.9em;
+    }
+
+    .sec1-text{
+        width: 55%;
+        align-items: center;
+    }
+
+    .sec1-text h1{
+        margin: 0 0 0.5em;
+        font-size: 2.3em;
+    }
+
+    .img-sec1{
+        width: 45%;
+        height: 45%;
+    }
+
+    .article1 h2{
+        font-size: 2.3em;
+    }
+
+    .benefits-container{
+        display: flex;
+    }
+
+    .benefits{
+        padding: 0 0.5em;
+    }
+
+    .sec2{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sec2 h2{
+        margin: 0;
+    }
+
+    .sec2-text{
+        width: 40%;
+    }
+
+    .img-sec2{
+        width: 50%;
+        height: 50%;
+    }
+
+    .sec3{
+        display: flex;
+        overflow-x: scroll;
+    }
+
+    .avatar-name{
+        min-width: 20em;
+    }
+    
+    .avatar-container{
+        margin-right: 1em;
+    }
+
+    footer a{
+        text-align: center;
+        display: block;
+    }
+
+    footer p{
+        text-align: center;
+    }
+}
+
