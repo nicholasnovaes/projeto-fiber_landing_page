@@ -335,7 +335,7 @@ footer nav ul{
     }
 
     .sec2-text{
-        width: 40%;
+        width: 45%;
     }
 
     .img-sec2{
@@ -356,6 +356,10 @@ footer nav ul{
         margin-right: 1em;
     }
 
+    footer{
+        padding: 2em 2em;
+    }
+
     footer a{
         text-align: center;
         display: block;
@@ -363,6 +367,67 @@ footer nav ul{
 
     footer p{
         text-align: center;
+    }
+}
+
+@media screen and (min-width:1024px){
+    header{
+        padding: 1em 8em;
+    }
+
+    .contain{
+        padding: 0 8em;
+    }
+
+    .sec1{
+        align-items: center;
+    }
+
+    .sec2{
+        margin-top: 3em;
+        align-items: center;
+    }
+
+    .sec2-text h2{
+        font-size: 2.3em;
+    }
+
+    .sec3{
+        overflow-x: hidden;
+    }
+
+    .avatar-name{
+        min-width: 15em;
+    }
+
+    footer{
+        display: flex;
+        padding: 2em 8em;
+    }
+
+    footer a{
+        display: inline;
+    }
+
+    .footer-text{
+        width: 50%;
+    }
+
+    .footer-nav{
+        width: 50%;
+    }
+
+    footer nav{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer nav span{
+        width: 50%;
+    }
+
+    footer p{
+        text-align: start;
     }
 }
 
