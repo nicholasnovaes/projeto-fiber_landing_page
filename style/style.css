@@ -415,9 +415,6 @@ footer nav ul{
 
     .footer-nav{
         width: 50%;
-    }
-
-    footer nav{
         display: flex;
         justify-content: space-between;
     }
